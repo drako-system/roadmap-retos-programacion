@@ -1,0 +1,56 @@
+package main.java;
+
+public class CeroCeroSintaxisVariabTiposDatosHolaMundo {
+    public static void main(String[] args) {
+
+        //URL de la página de Java https://java.com/es/
+
+        //Comentario simple
+
+        /*
+        * Comentario en
+        * varias lineas
+        * */
+
+        /**
+          Comentario javaDoc, para generar documentación  oficial
+         */
+
+        //Imprimir en consola
+        System.out.println("Hola Mundo");
+
+        //Crea una variable y una constante
+
+        Integer num1 = 1;
+        final String LENGUAJE = "Java";
+
+
+        //Tipos de Datos Primitivos
+
+        int num2 = 2;
+        boolean logico = true;
+        boolean logico2 = false;
+        float decimal = 2.0f;
+        double enteroDecimal = 55.5;
+        char unaLetra ='A';
+        byte unByte = 1;
+        short unShort = 1;
+        long unLong = 1;
+        String cadena = "cadena de texto";
+
+
+        System.out.println("Hola " + LENGUAJE + "!");
+        System.out.println();
+        System.out.println("Primitivos: " + num1 + " Y " + num2);
+        System.out.println(logico + " y " + logico2);
+        System.out.println("Número decimal o punto flotante: " + decimal);
+        System.out.println("Número decimal tipo double: " + enteroDecimal);
+        System.out.println("Char, soporta una sola letra: " + unaLetra);
+        System.out.println("Tipo de dato primitivo byte: " + unByte);
+        System.out.println("Tipo de dato primitivo Short: " + unShort);
+        System.out.println("Tipo de dato Long: " + unLong);
+        System.out.println("Cadena de texto String: " + cadena);
+
+    }
+
+}
